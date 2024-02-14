@@ -1,0 +1,244 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; /* Makes the divs appear as circles */
+  position: absolute; /* Allows positioning based on the parent container */
+}
+
+
+
+.pink {
+  background-color:pink;
+ 
+  top: 215px;
+  left: 30px;
+  z-index: 1; /* Higher z-index makes it appear on top */
+}
+
+.tan {
+  background-color:tan;
+  top: 80px;
+  left: 300px;
+  width: 115px;
+  height: 115px;
+  z-index:2; /* Lower z-index makes it appear behind */
+}
+
+.pink3 {
+  background-color: pink;
+  top: 15px;
+  left: 30px;
+  z-index: 3;
+}
+
+.pink4 {
+  background-color: pink;
+  top: 20px;
+  left: 600px;
+  z-index: 5;
+  
+}
+
+.pinkbig {
+  background-color: pink;
+  top: 210px;
+  left: 455px;
+  width:115px;
+  height:115px;
+  z-index: 5;
+  }
+
+  .tansmall {
+    background-color: tan;
+    top:400px ;
+    left: 300px;
+  }
+
+  .arrowup {
+    width: 0px; 
+    height: 0px; 
+    
+    
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+    border-bottom: 200px solid rgb(12, 153, 47);
+    position: absolute;
+    bottom:186px ;
+    left: 900px;
+    transform: scale(4);
+  }
+
+  .arrowuptan {
+    width: 0px; 
+    height: 0px; 
+    
+    
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    
+    border-bottom: 200px solid tan;
+    position: absolute;
+    bottom:-15px ;
+    left: 1250px;
+    transform: scale(2); 
+  }
+
+
+.container{
+  display: flex;
+  background-color: white;
+  height: 300px;
+}
+
+.box{
+  background-color:cadetblue;
+  padding:20px 20px;
+  width: 33%;
+  margin: 10px 10px 10px;
+  height: 70%;
+  
+}
+
+.bigbox{
+  background-color:cadetblue;
+  height:500px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.slimbox{
+  background-color:lightgreen;
+  height: 20px;
+
+
+}
+
+.person{
+font-size: 130px; 
+color:lightskyblue ; 
+position: absolute;
+top: 680px;
+left: 100px;
+
+
+}
+.person2{
+  font-size: 130px; 
+  color:lightskyblue ; 
+  position: absolute;
+  top: 680px;
+  left: 15px}
+
+
+.person3{
+  font-size: 130px; 
+  color:lightskyblue ; 
+  position: absolute;
+  top: 680px;
+  left: 183px}
+
+  .person4{
+    font-size: 130px; 
+    color:lightskyblue ; 
+    position: absolute;
+    top: 680px;
+    left: 265px}
+
+    .person5{
+      font-size: 130px; 
+      color:lightskyblue ; 
+      position: absolute;
+      top: 680px;
+      left: 347px}
+
+      .person6{
+        font-size: 130px; 
+        color:lightskyblue ; 
+        position: absolute;
+        top: 680px;
+        left: 430px}
+    
+        .person7{
+          font-size: 130px; 
+          color:gray ; 
+          position: absolute;
+          top: 680px;
+          left: 515px}
+
+          .person8{
+            font-size: 130px; 
+            color:gray ; 
+            position: absolute;
+            top: 680px;
+            left: 598px;
+            z-index: 10;}
+
+            .person9{
+              font-size: 130px; 
+              color:gray ; 
+              position: absolute;
+              top: 680px;
+              left: 680px;
+              z-index: 10;}
+  
+              .person10{
+                font-size: 130px; 
+                color:gray ; 
+                position: absolute;
+                top: 680px;
+                left: 763px;
+                z-index: 10;}
+        
+  form {
+    margin-top: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+    padding: 10px 10px;
+}
+
+label {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"]
+
+{
+    margin-bottom: 10px;
+}
+ 
+
+@media (max-width:1680px) and (min-width:1050px) /*desktop size*/ {
+  
+}
+
+@media (max-width:1024px) and (min-width:768px) /*ipad size*/ {
+  
+}
+
+@media (max-width: 480px) and (min-width: 320px) 
+  .container {
+    flex-direction: column;
+  }
+
+  .box {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  form {
+    width: 100%;
+  }
+
+
+
